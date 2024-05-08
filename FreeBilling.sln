@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeBilling.Web", "FreeBilling.Web\FreeBilling.Web.csproj", "{EA9B6766-47AA-4F5E-9049-C8EF6AAE86D6}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "freebilling.app", "FreeBilling.App\freebilling.app.esproj", "{DCA92A57-CFC8-40B1-B05C-B27BCB5E2E63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA9B6766-47AA-4F5E-9049-C8EF6AAE86D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9B6766-47AA-4F5E-9049-C8EF6AAE86D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9B6766-47AA-4F5E-9049-C8EF6AAE86D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9B6766-47AA-4F5E-9049-C8EF6AAE86D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA92A57-CFC8-40B1-B05C-B27BCB5E2E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA92A57-CFC8-40B1-B05C-B27BCB5E2E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA92A57-CFC8-40B1-B05C-B27BCB5E2E63}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DCA92A57-CFC8-40B1-B05C-B27BCB5E2E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA92A57-CFC8-40B1-B05C-B27BCB5E2E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA92A57-CFC8-40B1-B05C-B27BCB5E2E63}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAA70D59-F2F6-4BFF-8DBC-D3DF9CAEF208}
+	EndGlobalSection
+EndGlobal

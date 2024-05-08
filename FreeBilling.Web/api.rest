@@ -1,0 +1,38 @@
+GET http://localhost:5000/api/customers
+Authorization:Bearer
+####
+GET http://localhost:5000/api/customers?withAddresses=true
+####
+GET http://localhost:5000/api/customers/11
+####
+GET http://localhost:5000/api/timebills/18
+####
+POST http://localhost:5000/api/timebills
+Content-Type:application/json
+
+{ 
+  "hours": 2.5,
+  "employeeId": 2,
+  "customerId": 1,
+  "billingRate": 125.00,
+  "date": "2024-11-11T13:23:44",
+  "clientRequested": true,
+  "workPerformed": "I did thing...",
+  "category": "ddd"
+}
+####
+GET http://localhost:5000/api/customers/11/timebills
+
+###
+GET http://localhost:5000/api/customers/11/timebills/11
+###
+POST http://localhost:5000/api/auth/token
+Content-Type:application/json
+
+{
+"username":"hossein.rf27@gmail.com",
+"password":"P@ssw0rd!"
+}
+###
+GET http://localhost:5000/api/employees
+Authorization: bearer

@@ -1,0 +1,26 @@
+﻿@page 
+@model FreeBilling.Web.Pages.IndexModel
+@{
+    // var productName = "Free Billing";
+    //throw new InvalidOperationException("bad things happen good developers");
+    ViewBag.Title = "Home Page";
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+}
+<div class="container">
+    <h1 class="display-1">FreeBilling</h1>
+    <p class="mx-auto">FreeBilling  is a solution to billing for small companies and individual.</p>
+    @if(Model.Customers is not null &&Model.Customers.Count()>0)
+    {
+        
+        <ul>
+            @foreach(var customer in Model.Customers)
+            {
+                <li>@customer.CompanyName</li>
+            }
+
+        </ul>
+    }else
+    {
+        <div> no customer found....</div>
+    }
+  </div>
